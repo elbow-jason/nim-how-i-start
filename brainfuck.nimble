@@ -5,6 +5,7 @@ author        = "Jason Goldberger"
 description   = "A brainfuck interpreter"
 license       = "MIT"
 
+srcDir        = "src"
 bin           = "brainfuck"
 
 [Deps]
