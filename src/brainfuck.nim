@@ -83,7 +83,7 @@ proc interpret*(code: string) =
 when isMainModule:
   import docopt, tables, strutils
 
-  proc mandelbrot = compileFile "./examples/mandelbrot.b"
+  proc mandelbrot = compileFile "../examples/mandelbrot.b"
 
   let doc = """
 brainfuck
